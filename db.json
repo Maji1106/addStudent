@@ -1,0 +1,224 @@
+{
+    "students": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "email": "John@mail.com",
+            "phone": "0123456789",
+            "birthday": "1990-01-01",
+            "photo": "https://source.unsplash.com/random/200x200/?portrait",
+            "section": "65/45",
+            "major": "Software Engineering",
+            "admissionYear": "2022"
+        },
+        {
+            "id": 2,
+            "name": "Jane Smith",
+            "email": "Jane@mail.com",
+            "phone": "9876543210",
+            "birthday": "1995-05-15",
+            "photo": "https://source.unsplash.com/random/200x200/?portrait",
+            "section": "65/45",
+            "major": "Computer Science",
+            "admissionYear": "2022"
+        },
+        {
+            "id": 3,
+            "name": "Alice Johnson",
+            "email": "Alice@mail.com",
+            "phone": "1234567890",
+            "birthday": "1993-08-20",
+            "photo": "https://source.unsplash.com/random/200x200/?portrait",
+            "section": "55/60",
+            "major": "Information Technology",
+            "admissionYear": "2021"
+        },
+        {
+            "id": 4,
+            "name": "Michael Wilson",
+            "email": "Michael@mail.com",
+            "phone": "5555555555",
+            "birthday": "1994-12-10",
+            "photo": "https://source.unsplash.com/random/200x200/?portrait",
+            "section": "75/30",
+            "major": "Electrical Engineering",
+            "admissionYear": "2020"
+        },
+        {
+            "id": 5,
+            "name": "Sarah Brown",
+            "email": "Sarah@mail.com",
+            "phone": "3333333333",
+            "birthday": "1992-06-25",
+            "photo": "https://source.unsplash.com/random/200x200/?portrait",
+            "section": "70/50",
+            "major": "Mechanical Engineering",
+            "admissionYear": "2019"
+        },
+        {
+            "id": 6,
+            "name": "David Lee",
+            "email": "David@mail.com",
+            "phone": "4444444444",
+            "birthday": "1991-03-12",
+            "photo": "https://source.unsplash.com/random/200x200/?portrait",
+            "section": "60/40",
+            "major": "Civil Engineering",
+            "admissionYear": "2018"
+        },
+        {
+            "id": 7,
+            "name": "Emma Taylor",
+            "email": "Emma@mail.com",
+            "phone": "7777777777",
+            "birthday": "1996-09-05",
+            "photo": "https://source.unsplash.com/random/200x200/?portrait",
+            "section": "55/45",
+            "major": "Biomedical Science",
+            "admissionYear": "2017"
+        },
+        {
+            "id": 8,
+            "name": "William Clark",
+            "email": "William@mail.com",
+            "phone": "6666666666",
+            "birthday": "1997-11-30",
+            "photo": "https://source.unsplash.com/random/200x200/?portrait",
+            "section": "72/38",
+            "major": "Chemistry",
+            "admissionYear": "2016"
+        },
+        {
+            "id": 9,
+            "name": "Olivia Baker",
+            "email": "Olivia@mail.com",
+            "phone": "8888888888",
+            "birthday": "1993-04-17",
+            "photo": "https://source.unsplash.com/random/200x200/?portrait",
+            "section": "68/32",
+            "major": "Psychology",
+            "admissionYear": "2015"
+        },
+        {
+            "id": 10,
+            "name": "Daniel Green",
+            "email": "Daniel@mail.com",
+            "phone": "9999999999",
+            "birthday": "1998-02-08",
+            "photo": "https://source.unsplash.com/random/200x200/?portrait",
+            "section": "75/25",
+            "major": "Mathematics",
+            "admissionYear": "2014"
+        },
+        {
+            "id": 11,
+            "name": "Sophia Turner",
+            "email": "Sophia@mail.com",
+            "phone": "1231231234",
+            "birthday": "1992-07-14",
+            "photo": "https://source.unsplash.com/random/200x200/?portrait",
+            "section": "80/20",
+            "major": "Physics",
+            "admissionYear": "2013"
+        },
+        {
+            "id": 12,
+            "name": "Ethan Harris",
+            "email": "Ethan@mail.com",
+            "phone": "4564564567",
+            "birthday": "1991-10-27",
+            "photo": "https://source.unsplash.com/random/200x200/?portrait",
+            "section": "65/35",
+            "major": "History",
+            "admissionYear": "2012"
+        },
+        {
+            "id": 13,
+            "name": "Ava Martin",
+            "email": "Ava@mail.com",
+            "phone": "7897897890",
+            "birthday": "1995-12-04",
+            "photo": "https://source.unsplash.com/random/200x200/?portrait",
+            "section": "70/30",
+            "major": "English",
+            "admissionYear": "2011"
+        },
+        {
+            "id": 14,
+            "name": "Liam Phillips",
+            "email": "Liam@mail.com",
+            "phone": "5555555555",
+            "birthday": "1994-05-18",
+            "photo": "https://source.unsplash.com/random/200x200/?portrait",
+            "section": "68/32",
+            "major": "Biology",
+            "admissionYear": "2010"
+        },
+        {
+            "id": 15,
+            "name": "Mia Collins",
+            "email": "Mia@mail.com",
+            "phone": "4444444444",
+            "birthday": "1993-09-21",
+            "photo": "https://source.unsplash.com/random/200x200/?portrait",
+            "section": "75/25",
+            "major": "Geology",
+            "admissionYear": "2009"
+        },
+        {
+            "id": 16,
+            "name": "Noah King",
+            "email": "Noah@mail.com",
+            "phone": "6666666666",
+            "birthday": "1996-02-12",
+            "photo": "https://source.unsplash.com/random/200x200/?portrait",
+            "section": "80/20",
+            "major": "Environmental Science",
+            "admissionYear": "2008"
+        },
+        {
+            "id": 17,
+            "name": "Oliver White",
+            "email": "Oliver@mail.com",
+            "phone": "7777777777",
+            "birthday": "1997-04-05",
+            "photo": "https://source.unsplash.com/random/200x200/?portrait",
+            "section": "70/30",
+            "major": "Sociology",
+            "admissionYear": "2007"
+        },
+        {
+            "id": 18,
+            "name": "Sophia Turner",
+            "email": "Sophia@mail.com",
+            "phone": "1231231234",
+            "birthday": "1992-07-14",
+            "photo": "https://source.unsplash.com/random/200x200/?portrait",
+            "section": "75/25",
+            "major": "Economics",
+            "admissionYear": "2006"
+        },
+        {
+            "id": 19,
+            "name": "Ethan Harris",
+            "email": "Ethan@mail.com",
+            "phone": "4564564567",
+            "birthday": "1991-10-27",
+            "photo": "https://source.unsplash.com/random/200x200/?portrait",
+            "section": "80/20",
+            "major": "Political Science",
+            "admissionYear": "2005"
+        },
+        {
+            "id": 20,
+            "name": "Ava Martin",
+            "email": "Ava@mail.com",
+            "phone": "7897897890",
+            "birthday": "1995-12-04",
+            "photo": "https://source.unsplash.com/random/200x200/?portrait",
+            "section": "70/30",
+            "major": "Philosophy",
+            "admissionYear": "2004"
+        }
+    ]
+}
