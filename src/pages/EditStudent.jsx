@@ -215,4 +215,3 @@ useEffect(() => {
 };
 
 export default EditStudent;
-
