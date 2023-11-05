@@ -4,11 +4,10 @@ import { Link, useNavigate } from "react-router-dom";
 const StudentList = () => {
   const [stdData, setStdData] = useState(null);
   const navigate = useNavigate();
+
   useEffect(() => {
-    fetch("http://localhost:8000/students")
-      .then((res) => {
-        return res.json();
-      })
+    fetch("http://localhost:8000/student")
+      .then((res) => res.json())
       .then((response) => {
         setStdData(response);
       })
@@ -16,15 +15,30 @@ const StudentList = () => {
         console.log(err.message);
       });
   }, []);
+
   const loadEdit = (id) => {
     navigate("/student/edit/" + id);
   };
+
   const loadDetail = (id) => {
     navigate("/student/detail/" + id);
   };
-  const removeStudent = (id) =>{
-    alert("delete"+id)
-  }
+
+  const removeStudent = (id) => {
+    if(window.confirm("Do you want ti remove?")){
+      fetch("http://localhost:8000/student/" + id, {
+        method: "DELETE",
+      })
+        .then((res) => {
+          alert("remove successfully");
+          window.location.reload();
+        })
+        .catch((err) => {
+          console.log(err);
+        });
+    }
+  };
+
   return (
     <div className="container">
       <div className="card">
@@ -34,7 +48,7 @@ const StudentList = () => {
         <div className="card-body">
           <div className="divbtn">
             <Link to="/student/create" className="btn btn-success">
-              Add New (+)
+              Add New(+)
             </Link>
           </div>
           <table className="table table-bordered">
@@ -58,25 +72,19 @@ const StudentList = () => {
                     <td>
                       <a
                         className="btn btn-success"
-                        onClick={() => {
-                          loadEdit(item.id);
-                        }}
+                        onClick={() => loadEdit(item.id)}
                       >
                         Edit
                       </a>
                       <a
                         className="btn btn-danger"
-                        onClick={() => {
-                          removeStudent(item.id);
-                        }}
+                        onClick={() => removeStudent(item.id)}
                       >
                         Remove
                       </a>
                       <a
                         className="btn btn-primary"
-                        onClick={() => {
-                          loadDetail(item.id);
-                        }}
+                        onClick={() => loadDetail(item.id)}
                       >
                         Detail
                       </a>

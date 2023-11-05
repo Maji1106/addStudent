@@ -1,11 +1,12 @@
-import "./App.css";
-import { AddStudent, EditStudent, StudentDetail, StudentList } from "./pages";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css"
+import {AddStudent,EditStudent,StudentDetail,StudentList} from "./pages";
+import { BrowserRouter, Route,Routes } from "react-router-dom";
 
 function App() {
+ 
   return (
     <div className="container">
-      <h1>React.js CRUD Operation</h1>
+      <h1>React.js CRUD </h1>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<StudentList />}></Route>
@@ -18,4 +19,4 @@ function App() {
   );
 }
 
-export default App;
+export default App
